@@ -42,7 +42,7 @@ h2 {
 
 }
 
-.layer-1{
+.cloud-sm{
   z-index: 1;
   height: 370px;
   width: 120px;
@@ -51,7 +51,7 @@ h2 {
   right: 150px;
 }
 
-.layer-2{
+.cloud-lg{
   z-index: 2;
   height: 550px;
   width: 180px;
@@ -60,13 +60,10 @@ h2 {
   left: 10px;
 }
 
-.layer-3 {
-  z-index: 3;
-  height: 510px;
+.mario {
   width: 80px;
   background: top no-repeat url(img/jumping-mario.svg);
   background-size: 170px;
-  right: 320px;
   position: absolute;
   cursor: pointer;
 
@@ -87,34 +84,45 @@ h2 {
   }
 }
 
-.layer-4 {
-  z-index: 4;
-  height: 490px;
+.mario.position1{
+  z-index: 3;
+  height: 510px;
+  left: 200px;
+}
+
+.mario.position2{
+  z-index: 5;
+  height: 530px;
+  right: 160px;
+}
+
+.mario.position3{
+  z-index: 8;
+  height: 350px;
+  left: 120px;
+}
+
+.mario.position4{
+  z-index: 12;
+  height: 250px;
+  right: 80px;
+}
+
+.pipe {
   width: 80px;
   background: top no-repeat url(img/pipe.svg);
   background-size: 70px;
+}
+
+.pipe.position1{
+  z-index: 4;
+  height: 490px;
   right: 340px;
 }
 
-.layer-5 {
-  z-index: 5;
-  height: 530px;
-  width: 80px;
-  background: top no-repeat url(img/jumping-mario.svg);
-  background-size: 170px;
-  left: 360px;
-
-  animation-name: jump;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-}
-
-.layer-6 {
+.pipe.position2 {
   z-index: 6;
   height: 510px;
-  width: 80px;
-  background: top no-repeat url(img/pipe.svg);
-  background-size: 70px;
   left: 340px;
 }
 
@@ -128,30 +136,13 @@ h2 {
   background: top no-repeat url(img/question-blocks.svg);
 }
 
-
-.layer-8 {
-  z-index: 8;
-  height: 350px;
-  width: 80px;
-  background: top no-repeat url(img/jumping-mario.svg);
-  background-size: 170px;
-  left: 120px;
-
-  animation-name: jump;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-}
-
-.layer-9 {
+.pipe.position3 {
   z-index: 9;
   height: 330px;
-  width: 80px;
   left: 100px;
-  background: top no-repeat url(img/pipe.svg);
-  background-size: 70px;
 }
 
-.layer-10 {
+.goomba {
   z-index: 10;
   height: 320px;
   width: 60px;
@@ -170,26 +161,10 @@ h2 {
   margin: 0 auto;
 }
 
-.layer-12 {
-  z-index: 12;
-  height: 250px;
-  width: 80px;
-  background: top no-repeat url(img/jumping-mario.svg);
-  background-size: 170px;
-  right: 80px;
-
-  animation-name: jump;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-.layer-13 {
+.pipe.position4 {
   z-index: 13;
   height: 230px;
-  width: 80px;
   right: 100px;
-  background: top no-repeat url(img/pipe.svg);
-  background-size: 70px;
 }
 
 .layer-14 {
