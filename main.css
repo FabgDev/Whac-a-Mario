@@ -62,11 +62,29 @@ h2 {
 
 .layer-3 {
   z-index: 3;
-  height: 540px;
+  height: 510px;
   width: 80px;
   background: top no-repeat url(img/jumping-mario.svg);
   background-size: 170px;
   right: 320px;
+  position: absolute;
+  cursor: pointer;
+
+  animation-name: jump;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+  0%{
+    transform: translateY(30px);
+  }
+  50%{
+    transform: translateY(-30px);
+  }
+  100%{
+    transform: translateY(30px);
+  }
 }
 
 .layer-4 {
@@ -80,11 +98,15 @@ h2 {
 
 .layer-5 {
   z-index: 5;
-  height: 560px;
+  height: 530px;
   width: 80px;
   background: top no-repeat url(img/jumping-mario.svg);
   background-size: 170px;
   left: 360px;
+
+  animation-name: jump;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
 }
 
 .layer-6 {
@@ -109,11 +131,15 @@ h2 {
 
 .layer-8 {
   z-index: 8;
-  height: 380px;
+  height: 350px;
   width: 80px;
   background: top no-repeat url(img/jumping-mario.svg);
   background-size: 170px;
   left: 120px;
+
+  animation-name: jump;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 
 .layer-9 {
@@ -146,11 +172,15 @@ h2 {
 
 .layer-12 {
   z-index: 12;
-  height: 280px;
+  height: 250px;
   width: 80px;
   background: top no-repeat url(img/jumping-mario.svg);
   background-size: 170px;
   right: 80px;
+
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .layer-13 {
