@@ -88,24 +88,28 @@ h2 {
   z-index: 3;
   height: 510px;
   left: 200px;
+  animation-duration: 1500ms;
 }
 
 .mario.position2{
   z-index: 5;
   height: 530px;
   right: 160px;
+  animation-duration: 2000ms;
 }
 
 .mario.position3{
   z-index: 8;
   height: 350px;
   left: 120px;
+  animation-duration: 1000ms;
 }
 
 .mario.position4{
   z-index: 12;
   height: 250px;
   right: 80px;
+  animation-duration: 2500ms;
 }
 
 .pipe {
